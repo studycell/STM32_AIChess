@@ -1,0 +1,11 @@
+.\obj\touch.o: ..\src\TOUCH.c
+.\obj\touch.o: ..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h
+.\obj\touch.o: ..\..\..\Libraries\CMSIS\Core\CM3\core_cm3.h
+.\obj\touch.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\touch.o: ..\..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h
+.\obj\touch.o: ..\inc\stm32f10x_conf.h
+.\obj\touch.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\touch.o: ..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h
+.\obj\touch.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\touch.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\obj\touch.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h

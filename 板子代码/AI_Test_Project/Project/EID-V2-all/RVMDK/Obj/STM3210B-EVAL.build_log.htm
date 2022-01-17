@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\EID-V2-STM32F103-²âÊÔ\Project\EID-V2-all\RVMDK\EID-V2.uvproj
+Project File Date:  12/02/2021
+
+<h2>Output:</h2>
+Build target 'STM3210B-EVAL'
+linking...
+Program Size: Code=23780 RO-data=268 RW-data=104 ZI-data=528  
+".\Obj\test.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\EID-V2-STM32F103-²âÊÔ\\Project\\EID-V2-all\\RVMDK\\Obj\\test.axf" 
+Set JLink Project File to "D:\EID-V2-STM32F103-²âÊÔ\Project\EID-V2-all\RVMDK\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 791950130 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.293V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+compiling LCD.c...
+..\src\LCD.c(750): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(50); // delay 50 ms 
+..\src\LCD.c(2054): warning:  #223-D: function "delay_us" declared implicitly
+                delay_us(120);
+..\src\LCD.c(2691): warning:  #223-D: function "delay_us" declared implicitly
+                delay_us(100);
+..\src\LCD.c(3042): warning:  #177-D: variable "x" was declared but never referenced
+         u8 x=0;
+..\src\LCD.c(3043): warning:  #177-D: variable "lcd_id" was declared but never referenced
+        u8 lcd_id[12];                  //´æ·ÅLCD ID×Ö·û´®      
+..\src\LCD.c(3111): warning:  #177-D: variable "SPI_InitStructure" was declared but never referenced
+           SPI_InitTypeDef  SPI_InitStructure;
+..\src\LCD.c(3163): warning:  #223-D: function "Delay" declared implicitly
+        Delay(1);
+..\src\LCD.c: 7 warnings, 0 errors
+"..\src\LCD.c" - 0 Error(s), 7 Warning(s).
+declared but never referenced
+        u8 lcd_id[12];                  //´æ·ÅLCD ID×Ö·û´®      
+..\src\LCD.c(3111): warning:  #177-D: variable "SPI_InitStructure" was declared but never referenced
+           SPI_InitTypeDef  SPI_InitStructure;
+..\src\LCD.c(3163): warning:  #223-D: function "Delay" declared implicitly
+        Delay(1);
+..\src\LCD.c: 7 warnings, 0 errors
+"..\src\LCD.c" - 0 Error(s), 7 Warning(s).

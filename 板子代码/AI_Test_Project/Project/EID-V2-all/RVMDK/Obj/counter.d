@@ -1,0 +1,11 @@
+.\obj\counter.o: ..\src\Counter.c
+.\obj\counter.o: ..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h
+.\obj\counter.o: ..\..\..\Libraries\CMSIS\Core\CM3\core_cm3.h
+.\obj\counter.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\counter.o: ..\..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h
+.\obj\counter.o: ..\inc\stm32f10x_conf.h
+.\obj\counter.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\counter.o: ..\..\..\Libraries\CMSIS\Core\CM3\stm32f10x.h
+.\obj\counter.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\counter.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\obj\counter.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
